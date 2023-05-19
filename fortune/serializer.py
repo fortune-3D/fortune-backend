@@ -6,9 +6,9 @@ class FortuneSerializer(serializers.ModelSerializer):
     class Meta:
         fields = (
             'id',
-            # 'owner',
-            # 'location',
-            'description',
+            'owner',
+            'fortune',
+            # 'description',
             # 'hourly_sales',
             # 'minimum_customers_per_hour',
             # 'maximum_customers_per_hour',
