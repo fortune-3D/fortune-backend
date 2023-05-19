@@ -1,5 +1,5 @@
 """
-URL configuration for cookie_stands_project project.
+URL configuration for fortune_project project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -21,7 +21,7 @@ from .views import MyTokenObtainPairView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/v1/cookie_stands/', include('cookie_stands.urls')),
+    path('api/v1/fortune/', include('fortune.urls')),
     path('api-auth', include('rest_framework.urls')),
     path('api/token/', MyTokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', jwt_views.TokenRefreshView.as_view(), name='token_refresh'),
