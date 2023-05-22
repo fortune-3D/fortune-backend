@@ -6,6 +6,7 @@ Backend Setup: Tyler Huntley
 
 - Added a response randomizer.   
 - Deployed to Vercel and ensured that the api is working properly and connected to the database.  
+- [Fortune Backend](https://fortune-backend.vercel.app/api/v1/fortune/)  
 
 Team: Tyler Huntley, Darran Holmes, Sheldon Pierce, Dominick Martin     
 Date: 05/19/2023    
