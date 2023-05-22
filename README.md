@@ -19,3 +19,21 @@ Resources:
 
 - Worked on getting the backend api built for our full-stack application.  
 - Backend is up and running locally, database is populated with replies 
+
+## SETUP
+```
+If you are running locally: 
+
+python3 -m venv .venv
+python3 .venv/bin/activate
+
+Install all requirements
+pip install -r requirements.txt
+
+Bring up Docker
+docker compose up
+```
+
+## Testing  
+Testing for the backend was all done manually as the ElephantSQL database and project setup will not allow for temp user or database items to be created.   
+Ensured that database properly adds items from the backend admin & api views.  
